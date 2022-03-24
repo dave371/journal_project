@@ -20,7 +20,6 @@ export const getJournals = async (req, res) => {
 export const getJournal = async (req, res) => {
   // get the id of the journal entry
   const { id: journalId } = req.params;
-
   // checking to see if id is in the valid format
   if (!mongoose.Types.ObjectId.isValid(journalId)) {
     return res.status(404).send(`No post with the id of ${journalId}`);
