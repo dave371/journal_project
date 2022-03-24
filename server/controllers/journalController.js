@@ -16,6 +16,7 @@ export const getJournals = async (req, res) => {
   }
 };
 
+// * GET A JOURNAL ENTRY
 export const getJournal = async (req, res) => {
   // get the id of the journal entry
   const { id: journalId } = req.params;
@@ -36,6 +37,7 @@ export const getJournal = async (req, res) => {
   }
 };
 
+// * CREATE A JOURNAL ENTRY
 export const createJournal = async (req, res) => {
   // getting the journal data
   const entry = req.body;
@@ -52,6 +54,7 @@ export const createJournal = async (req, res) => {
   }
 };
 
+// * UPDATE A JOURNAL ENTRY
 export const updateJournal = async (req, res) => {
   // get the id of the journal entry
   const { id: journalId } = req.params;
@@ -71,6 +74,7 @@ export const updateJournal = async (req, res) => {
   res.json(updatedJournalEntry);
 };
 
+// * DELETE A JOURNAL ENTRY
 export const deleteJournal = async (req, res) => {
   //getting journal id
   const { id: journalId } = req.params;
