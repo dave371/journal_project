@@ -1,5 +1,4 @@
 import React from "react";
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { setCurrentId } from "../../../actions/currentId";
 import { deleteJournal } from "../../../actions/journals";
