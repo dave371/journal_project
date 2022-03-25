@@ -1,0 +1,30 @@
+.card__container {
+  border: 2px solid #6746c3;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card__functions {
+  display: flex;
+  gap: 10px;
+}
+
+.card__functions a {
+  text-decoration: none;
+  color: black;
+}
+
+.card__content {
+  margin-top: 25px;
+}

@@ -1,0 +1,33 @@
+.form__container {
+  background-color: #311b92;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.form__header {
+  color: white;
+  text-align: center;
+}
+
+.form input {
+  padding: 10px;
+}
+
+.form textarea {
+  height: 100px;
+}
+
+.form button {
+  background-color: white;
+  border: none;
+}
+
+.form button:hover {
+  background-color: rgba(255, 255, 255, 0.931);
+}
