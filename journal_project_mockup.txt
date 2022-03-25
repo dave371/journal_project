@@ -38,3 +38,30 @@ File Structure:
 		- /journal (POST)
 		- /journal/:id (PATCH)
 		- /journal/:id (DELETE)
+
+Frontend:
+Libs needed:
+thunk
+redux
+axios
+
+File Structure:
+--src
+--actions
+	-index.js
+--api
+	-index.js
+--components
+	--Journals
+		--Journal
+			-Journal.js
+			-style.css
+		-Journals.js
+		-style.css
+--constants
+	-actionTypes.js
+--reducers
+	-index.js
+	-journalReducer
+-App.js
+-index.js
