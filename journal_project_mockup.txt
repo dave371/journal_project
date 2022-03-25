@@ -41,8 +41,8 @@ File Structure:
 
 Frontend:
 Libs needed:
-thunk
-redux
+react-redux
+redux-thunk
 axios
 
 File Structure:
